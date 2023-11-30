@@ -19,7 +19,7 @@
     <node name="vins_estimator" pkg="vins" type="vins_node" output="screen" args="/home/f404/catkin_404/src/VINS-Fusion/config/ue/ue_stereo_imu_config_14.yaml"/>
 
     <node pkg="rosbag" type="play" name="player" output="log" 
-    args="$(arg sequence_1) -s 15
+    args="$(arg sequence_1) -s 10
     camera3/image:=/camera3/image
     camera4/image:=/camera4/image
     camera1/image:=/camera1/image
